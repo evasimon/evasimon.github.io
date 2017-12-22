@@ -18,7 +18,14 @@ h1 {
     margin-bottom: 35px;
 }
 
-html { 
+h2 {
+    color: #000;
+    margin-top: 30px;
+}
+
+.hero { 
+    height: 669px;
+    padding-top: 152px;
     background: url(img/01.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -30,4 +37,22 @@ html {
     width: 80%;
     margin: 0 auto;
     text-align: center
+}
+
+.card-img-top {
+    width: 100%
+}
+
+.card {
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-text,
+.card-title {
+    color: #000;
+}
+
+footer {
+    background-color: rgb(63, 61, 61);
 }
