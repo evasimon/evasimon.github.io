@@ -53,6 +53,10 @@ h2 {
     color: #000;
 }
 
+.card-text {
+    height: 142px;
+}
+
 footer {
     background-color: rgb(63, 61, 61);
 }
