@@ -2,6 +2,8 @@
 <html>
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Eva's Page</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
@@ -40,17 +42,18 @@
 
 		</div>
 	</section>
-	<section>
+	<section class="featured">
 		<div class="container">
 			<h2>Featured Projects</h2>
-
 			<div class="row">
 				<div class="col-md-4 mt-5">
 					<div class="card">
 						<img class="card-img-top" src="img/eventsnap-card.jpg" alt="Card image cap">
 						<div class="card-block">
 							<h4 class="card-title">EventSnap
-								<br>(2017)</h4>
+								<br>
+								<span>(2017)</span>
+							</h4>
 							<p class="card-text">EventSnap is a QR code generator and reader full-stack web application that allows event organizers register guests
 								in a simple way and monitor custom check-ins in real-time.</p>
 							<a href="https://eventsnap.herokuapp.com" class="card-link">Website</a>
@@ -62,7 +65,10 @@
 					<div class="card">
 						<img class="card-img-top" src="img/non-profit-card.jpg" alt="Card image cap">
 						<div class="card-block">
-							<h4 class="card-title">Community Website (2016)</h4>
+							<h4 class="card-title">Community Website
+								<br>
+								<span>(2016)</span>
+							</h4>
 							<p class="card-text">A multipage website desingned and developed using WordPress for a non-profit organization in Chicago.</p>
 							<a href="https://www.hungarianclubofchicago.com" class="card-link">Website</a>
 						</div>
@@ -72,7 +78,10 @@
 					<div class="card">
 						<img class="card-img-top" src="img/photobooth-card.jpg" alt="Card image cap">
 						<div class="card-block">
-							<h4 class="card-title">Glass Coat Photo Booth (2015)</h4>
+							<h4 class="card-title">Glass Coat Photo Booth
+								<br>
+								<span>(2015)</span>
+							</h4>
 							<p class="card-text">Glass Coat Photo Booth is a consumer service provider that engaged us for adapting their website into a user friendly
 								website across devices.</p>
 							<a href="http://glasscoatphotobooth.com/" class="card-link">Website</a>
@@ -83,25 +92,64 @@
 			</div>
 		</div>
 	</section>
+	<section class="recommendations">
+		<div class="container">
+			<h2>Recommendations</h2>
+			<div class="row">
+				<div class="col-lg-4">
+					<img class="rounded-circle" src="https://media.licdn.com/media/AAEAAQAAAAAAAANCAAAAJDkwYjRlNmM4LTlkZGQtNDFjYy04MjBjLTBkZDI2MTRhYzk3Yg.jpg"
+					 alt="Generic placeholder image" width="140" height="140">
+					<h3>Won You</h3>
+					<br>
+					<span>June, 2015</span>
+					<p>Eva is an incredibly smart and gifted junior developer. She has the mind, the patience, and the perseverance needed
+						to be a successful front-end developer. When it came to dev projects, Eva always took on the hardest assignments and
+						worked tirelessly to do the best work that she possibly could. She was very quick to master HTML5 and CSS3, and picked
+						up Javascript with relative ease. And if that wasn't enough, she has an eye for design and the ability to build her
+						own creations. Given the right mentorship and opportunity for growth, there is no limit to what Eva can accomplish
+						in her role as a developer. She is ready to start contributing to website projects right away.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 	</div>
 
 	<footer>
 		<div class="container">
-			<h3>Contact Me:</h3>
+			<h2>Let's Connect!
+			</h2>
 			<ul>
-				<li>
-					Email:
-					<a href="mailto:eva@evasimon.me">eva@evasimon.me</a>
+				<li class="list-item">
+					<a href="https://github.com/evasimon" target="_blank">
+						<i class="fa fa-github" aria-hidden="true"></i>
+					</a>
 				</li>
-				<li>
-					GitHunb:
-					<a href="https://github.com/evasimon">github.com/evasimon</a>
+				<li class="list-item">
+					<a href="mailto:eva@evasimon.me" target="_blank">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					</a>
 				</li>
-				<li>
-					LinkedIn:
-					<a href="https://www.linkedin.com/in/simoneva/">https://www.linkedin.com/in/simoneva/</a>
+				<li class="list-item">
+					<a href="https://www.linkedin.com/in/simoneva/" target="_blank">
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="list-item">
+					<a href="https://twitter.com/CodedietChicago" target="_blank">
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						</i>
+					</a>
 				</li>
 			</ul>
+		</div>
+		<div class="subfooter">
+			<div class="container">
+				<!-- Copyright &copy;2018 evasimon.me. All rights reserved. -->
+				<br>Made with
+				<i class="fa fa-heart" aria-hidden="true"></i>
+				by evasimon.me
+				<br>
+			</div>
 		</div>
 	</footer>
 </body>
